@@ -1,0 +1,106 @@
+{
+    "Shops": [{
+            "ShopName": "MuseumShop",
+            "PortraitPath": "assets/CharlieShopIcon.png",
+            "When": ["NPCAt Charlie 8 9"],
+            "Quote": "Hello! How about a hot coffee?",
+            "LocalizedQuote": {
+                "pt": "Olá! Que tal um café quente?",
+                "ko": "어서와! 따뜻한 커피 한 잔 마실래?",
+            },
+            "ItemStocks": [{
+                    "ItemType": "Object",
+                    "StockPrice": 30,
+                    "ItemIDs": [
+                        395,
+                        216,
+                        223,
+                        194
+                    ],
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 100,
+                    "ItemIDs": [
+                        196,
+                        211,
+                        224,
+                        223,
+                    ],
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 200,
+                    "ItemIDs": [
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "Stock": 3,
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 1000,
+                    "ItemIDs": [
+                        499
+                    ],
+                    "Stock": 5,
+                },
+            ],
+            "ClosedMessage": "Come back later",
+            "LocalizedClosedMessage": {
+                "pt": "Volte mais tarde",
+                "ko": "나중에 다시 오자.",
+            },
+        }, {
+            "ShopName": "MuseumShopRandy",
+            "PortraitPath": "assets/RandyShopIcon.png",
+            "When": ["NPCAt Randy 8 9"],
+            "Quote": "Hi, need something?",
+            "LocalizedQuote": {
+                "pt": "Oi, ocê quer alguma coisa?",
+                "ko": "안녕, 뭐 필요해?",
+            },
+            "ItemStocks": [{
+                    "ItemType": "Object",
+                    "StockPrice": 30,
+                    "ItemIDs": [
+                        395,
+                        216,
+                        223,
+                        194
+                    ],
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 100,
+                    "ItemIDs": [
+                        196,
+                        211,
+                        224,
+                        223,
+                    ],
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 200,
+                    "ItemIDs": [
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "Stock": 3,
+                }, {
+                    "ItemType": "Object",
+                    "StockPrice": 1000,
+                    "ItemIDs": [
+                        499
+                    ],
+                    "Stock": 5,
+                },
+            ],
+            "ClosedMessage": "Come back later",
+            "LocalizedClosedMessage": {
+                "pt": "Volte mais tarde",
+                "ko": "나중에 다시 오자.",
+            },
+        },
+    ]
+}

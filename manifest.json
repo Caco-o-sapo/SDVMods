@@ -1,0 +1,13 @@
+{
+  "Name": "Museum Expansion CP",
+  "Author": "andril11 and various artists",
+  "Description": "Adds Charlie to your world!",
+  "Version": "1.9.8",
+  "UniqueID": "andril11.charlie",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus:6027"
+  ]
+}

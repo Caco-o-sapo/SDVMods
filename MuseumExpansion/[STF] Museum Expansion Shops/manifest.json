@@ -1,0 +1,12 @@
+{
+  "Name": "Museum Shop",
+  "Author": "Andril11",
+  "Version": "1.0",
+  "Description": "Adds the museum shop",
+  "UniqueID": "shop.museum",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+  	"UniqueID": "Cherry.ShopTileFramework"
+  }
+}

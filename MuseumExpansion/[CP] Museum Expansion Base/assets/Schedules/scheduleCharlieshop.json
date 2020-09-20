@@ -1,0 +1,10 @@
+{
+	"marriage_Mon": "800 Town 62 16 0/1300 Town 41 102 2/1600 Beach 54 7 0 charlie_read \"Strings\\schedules\\Charlie:beach.000\"/1900 Saloon 23 18 0 charlie_drink \"Strings\\schedules\\Charlie:saloon.002\"",
+	"Mon": "800 ArchaeologyHouse 20 5 2 charlie_read /1100 Town 62 16 0/1300 Town 41 102 2/1600 Beach 54 7 0/1900 Beach 40 24 2 charlie_read \"Strings\\schedules\\Charlie:beach.000\"/2200 ArchaeologyHouse 20 5 0",
+	"Tue": "700 Beach 26 4 2 charlie_read \"Strings\\schedules\\Charlie:beach.000\"/1100 SeedShop 3 23 0 \"Strings\\schedules\\Charlie:seeds.003\"/1400 Mountain 42 6 0 charlie_read /2000 Saloon 23 18 0 charlie_drink \"Strings\\schedules\\Charlie:saloon.002\"",
+	"Wed": "600 Town 106 56 2 charlie_drink/1000 Museumshop 8 9 2/2000 Saloon 23 18 0 charlie_drink \"Strings\\schedules\\Charlie:saloon.002\"",
+	"Thu": "800 ArchaeologyHouse 20 5 2 charlie_read/1200 Museumshop 8 9 2 charlie_drink /2000 Test2 17 9 2",
+	"Fri": "GOTO Wed",
+    "Sat": "GOTO Thu",
+	"Sun": "GOTO Tue",
+}	

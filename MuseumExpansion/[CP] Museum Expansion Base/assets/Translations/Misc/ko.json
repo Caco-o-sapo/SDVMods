@@ -1,0 +1,91 @@
+{
+    "Changes": [{
+            "LogName": "Charlie Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Charlie": "adult/polite/outgoing/neutral/male/datable/null/Other/summer 16/Gunther '' Randy ''/Test2 3 5/찰리",
+                "Welwick": "adult/neutral/shy/positive/female/not-datable/null/Other/winter 3/null/WizardHouse -10000 -10000/웰윅",
+            }
+        }, {
+            "LogName": "GuntherWoods Flag for Sve",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "GuntherWoods": "adult/neutral/neutral/positive/male/not-datable/null/Other/fall 11/Charlie 'nephew'/Test2 3 5/권터",
+            },
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",
+            },
+        }, {
+            "LogName": "NPC Manifestation Randy 2",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "When": {
+                "HasSeenEvent |contains=47360003": "true"
+            },
+            "Entries": {
+                "Randy": "child/polite/outgoing/neutral/male/not-datable/null/Other/winter 3/Charlie ''/Museumshop 8 11/랜디"
+            },
+        }, {
+            "LogName": "Charlie Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Charlie": "우와, 이거 엄청나잖아! 고마워!/84 64 103 395/이거 멋지다. 너 정말 친절하구나!/96 97 98 99/어...일단은 받아둘게./88 90/너...진짜 못됐다.../68 70/고마워./80 82//",
+                "Randy": "멋지다! 고마워요!/84 82 43 395/고, 고마워...!/96 67 68 99/별로야.../88 90/쓰레기...?/68 70/조, 좋아.../80 82///"
+            },
+        }, {
+
+            "LogName": "GuntherWoods GiftTaste SVE",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"
+            },
+            "Entries": {
+                "GuntherWoods": "오, 고맙습니다, @. 당신은 정말 좋은 분이에요!/386 86 80 82/고마워요 젊은 친구.//이걸로 뭘 하죠?/90 88 78/대체 무슨 생각이죠? 정말 끔찍하군요!/330/선물을 주시는 건가요? 고맙습니다.//",
+            },
+    }, {
+        "LogName": "Engagement Charlie Dialogue",
+        "Action": "EditData",
+        "Target": "Data/EngagementDialogue",
+        "Entries": {
+            "Charlie0": "나 정말 행복해!$1",
+            "Charlie1": "내일을 생각하면 정말 긴장돼.$4"
+        }
+    }, {
+        "LogName": "Weeding fix",
+        "Action": "EditData",
+        "Target": "strings/StringsFromCSFiles",
+        "Entries": {
+            "Utility.cs.5367": "@이(가) 처음 펠리컨 마을에 도착했을 때, 우리 공동체에 잘 적응할 수 있을지 아무도 몰랐습니다...#$b#하지만 오늘부로, @은(는) 우리 모두처럼 마을의 일원이 된 겁니!$h#$b#@와(과) 찰리를 결혼의 인연으로 맺어줄 수 있어 큰 영광입니다.",
+            "Utility.cs.5369": "@이(가) 처음 펠리컨 마을에 도착했을 때, 우리 공동체에 잘 적응할 수 있을지 아무도 몰랐습니다...#$b#하지만 오늘부로, @은(는) 우리 모두처럼 마을의 일원이 된 겁니!$h#$b#@와(과) 찰리를 결혼의 인연으로 맺어줄 수 있어 큰 영광입니다.",
+
+            "Utility.cs.5371": "@... 찰리... #$b# 펠리컨 마을의 시장으로, 그리고 지역 결혼 인장의 소지자로서, 이제 그대 둘이 부부가 되었음을 선언합니다!$h",
+            "Utility.cs.5373": "@... 찰리... #$b# 펠리컨 마을의 시장으로, 그리고 지역 결혼 인장의 소지자로서, 이제 그대 둘이 부부가 되었음을 선언합니다!$h",
+            "Utility.cs.5377": "@... 찰리... #$b# 펠리컨 마을의 시장으로, 그리고 지역 결혼 인장의 소지자로서, 이제 그대 둘이 부부가 되었음을 선언합니다!$h",
+        },
+        "When": {
+            "Relationship:Charlie": "Engaged, Married"
+        }
+    }, {
+        "LogName": "Map strings",
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "Inside.1": "맛있어 보이는 쿠키! 유감이지만 네 것이 아니야...",
+            "Inside.2": "오, 지구본! 그리고 여기는 스타듀벨리지만 펠리컨 타운은 찾을 수 없다.",
+            "Inside.3": "채소로 가득 찬 냉장고... 왜 고대 인형이 여기 있지?",
+            "Inside.5": "거울을 보자, 오늘따라 내가 멋져보인다.",
+            "Shop.1": "왜 쓰레기통을 들여다보는 거야?",
+            "Shop.2": "랜디는 새 집에 와서 행복해 보인다.",
+            "Shop.3": "책과 더 많은 책...",
+            "Shop.4": "왜 사람들은 항상 이런 책들을 바닥에 펼쳐놓는걸까?",
+            "Spouse.1": "이 오락기는 암호가 걸려있다...",
+            "Spouse.2": "소파 밑에 뭔가 있다... 그냥 오래된 보드 게임이다.",
+            "Spouse.3": "찰리가 쓰던 테이블... 샌디에게 보내는 편지도 있고, 서류도 있다.",
+        },
+    },
+    ],
+    }

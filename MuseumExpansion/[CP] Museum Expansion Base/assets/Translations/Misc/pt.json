@@ -1,0 +1,54 @@
+{
+    "Changes": [{
+            "LogName": "Charlie and Randy Gift Tastes Portuguese",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Charlie": "Ah uau isso é incrível! Obrigado!/84 64 103 395/Que legal da sua parte, isto é ótimo./96 97 98 99/Ah.. bem é a intenção que conta eu acho./88 90/Grosso... Você é grosso.../68 70/Obrigado/80 82//",
+                "Randy": "Coisa chique! Obrigado!/84 82 43 395/O-obriga... do!/96 67 68 99/Não é legal.../88 90/L-lixo.../68 70/Eu g-gostei.../80 82///"
+            },
+        }, {
+            "LogName": "GuntherWoods GiftTaste SVE",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"
+            },
+            "Entries": {
+                "GuntherWoods": "Ah, obrigado @, você com certeza é uma boa pessoa!/386 86 80 82/Muito obrigado.//O que eu deveria fazer com isso?/90 88 78/O que você estava pensando? Isso é horrível!/330/Você me trouxe um presente? Obrigado.//",
+            },
+        }, {
+            "LogName": "Weeding fix",
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5367": "Quando @ chegou na Vila Pelicanos, ninguém sabia que ele se encaixaria em nossa comunidade...#$b#Mas de hoje em diante, @ será tão parte dessa cidade como qualquer um de nós!$h#$b#É uma honra, neste dia {0} de {1}, unir @ e Charlie através dos laços do matrimônio.",
+                "Utility.cs.5369": "Quando @ chegou na Vila Pelicanos, ninguém sabia que ela se encaixaria em nossa comunidade...#$b#Mas de hoje em diante, @ será tão parte dessa cidade como qualquer um de nós!$h#$b#É uma honra, neste dia {0} de {1}, unir @ e Charlie através dos laços do matrimônio.",
+
+                "Utility.cs.5371": "@... Charlie... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e..., bem, marido!$h",
+                "Utility.cs.5373": "@... Charlie... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e mulher!$h",
+                "Utility.cs.5377": "@... Charlie... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e mulher!$h",
+            },
+            "When": {
+                "Relationship:Charlie": "Engaged, Married"
+            }
+        }, {
+            "LogName": "Map strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Inside.1": "Biscoitos frescos! Pena que não é para você...",
+                "Inside.2": "Ah, um globo! E aqui está o Vale do Orvalho, mas você não consegue achar a Vila Pelicanos",
+                "Inside.3": "A geladeira dele, é cheia de vegetais, e... Por que tem um Boneco Antigo lá?",
+                "Inside.5": "Você se olha se espelho. Você está atraente hoje. Só hoje.",
+                "Shop.1": "Por que você está olhando na lata de lixo?",
+                "Shop.2": "Randy parece feliz com sua nova casa.",
+                "Shop.3": "Livros e mais livros...",
+                "Shop.4": "Por que as pessoas sempre deixam livros abertos no chão?",
+                "Spouse.1": "Esses jogos de fliperama são protegidos com senha...",
+                "Spouse.2": "Você percebe alguma coisa embaixo do sofá... É só um jogo de tabuleiro velho.",
+                "Spouse.3": "Você olha na mesa de Charlie... Há algumas cartas para a Sandy, e umas papeladas.",
+            },
+        },
+    ],
+}

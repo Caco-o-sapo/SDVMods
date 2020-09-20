@@ -1,0 +1,9 @@
+{
+  "Mon": "800 ArchaeologyHouse 32 12 2 gunther_search /1100 ArchaeologyHouse 12 9 0/1500 ArchaeologyHouse 5 10 0",
+  "Tue": "GOTO Mon",
+  "Wed": "GOTO Mon",
+  "Thu": "GOTO Mon",
+  "Fri": "GOTO Mon",
+  "Sat": "GOTO Mon",
+  "Sun": "GOTO Mon",
+}

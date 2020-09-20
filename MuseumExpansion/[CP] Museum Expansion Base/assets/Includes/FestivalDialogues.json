@@ -1,0 +1,74 @@
+{
+  "Changes": [
+	{
+	 "LogName": "Flower Dance dialogue",
+	 "Action": "EditData",
+	 "Target": "data/festivals/spring24",
+	 "Entries": {
+	    "Charlie": "This festival is a bit odd for me...$7#$b# But sure it has some qualities.$h",
+		"Charlie_spouse": "Go on sweety, you can dance if you want to.#$b# I know that you are loyal to me!$l",
+		"Randy": "Dance! Dance!$l#$b# I like flowers!$h"
+      }
+	},
+	{
+	 "LogName": "Luau dialogue",
+	 "Action": "EditData",
+	 "Target": "data/festivals/summer11",
+	 "Entries": {
+	    "Charlie": "I hate this festival.$a#$b# But I smile and talk to everyone, and treat the Governor as a super special guest.#$b# So the Governor may give us some extra money.#$b# So please, stay quiet @.",
+		"Charlie_spouse": "Hey honey. You bring something to the soup?#$b# Now that we are married I can tell you something...#$b# One time, Randy jumped into the soup, and when the governor started to eat, he looked into Randy.$h#$b# And then, the museum almost was disabled...$7#$b# That's why he is away from the soup.",
+		"Randy": "I don't like soup...$s#$b# It's too hot for my body.$s"
+	  }	
+	},
+	{
+	 "LogName": "Jellies dialogue",
+	 "Action": "EditData",
+	 "Target": "data/festivals/summer28",
+	 "Entries": {
+	    "Charlie": "These Jellies, do you know that they are older than this hole town?$h#$b# Some of them have more than 1000 years, and this is just the beggining of they're life!$h",
+		"Charlie_spouse": "These Jellies are beautiful.#$b# They remind me of when Randy eated a firefly, he looked like a lamp.$h",
+		"Randy": "These Jellies look like me!$h#$b# But they have a lamp inside...#$b# I want a lamp inside me...$s"
+	  }
+	},
+	{
+	 "LogName": "Stardew Fair dialogue",
+	 "Action": "EditData",
+	 "Target": "data/festivals/fall16",
+	 "Entries": {
+	    "Charlie": "I really like this festival.#$b# All these games and the people are amazing!$h#$b# I hope that next year, my uncle and I, goes into the competiton!#$b# Beware us @!",
+		"Charlie_spouse": "Hey babe.#$b# Don't mind me here, I'll just play some games.#$b# I just wanted that Gunther come this time, he never leave the museum...$s#$b# Oh, sorry. Don't let my family trouble get you down. Let's play!$h",
+		"Randy": "Too much people...$u"
+	  }
+	},
+	{
+	 "LogName": "Spirits evee dialogue",
+	 "Action": "EditData",
+	 "Target": "data/festivals/fall27",
+	 "Entries": {
+	    "Charlie": "This time, I'm here just for the food.#$b# Don't tell Gunther, but I really don't like this festival...$7",
+		"Charlie_spouse": "I think that Gunther have fear of this festival...$6#$b# Because he never talk about it...$6#$b# Once I brought a pumpkin to home and left it at the side of his bed.#$b# I never heard him screaming that louder!$h",
+		"Randy": "Whaa!$u#$b# Don't scare me please!$s"
+	  }
+	},
+    {
+       "LogName": "Ice contest festival",
+	   "Action": "EditData",
+	   "Target": "data/festivals/winter8",
+	   "Entries": {
+	    "Charlie": "Why do they fish in the winter?$6#$b# Why? Just why?$6#$b#This doesn't make any sense...$6",
+		"Charlie_spouse": "Hey honey!#$b# Smash everyone in this contest!#$b# And bring a fish to Randy, he likes some of them.",
+		"Randy": "Hi @. Can I fish?#$b# Pretty please?$l"
+	  }
+    },
+    {
+       "LogName": "Winter star dialogue",
+       "Action": "EditData",
+	   "Target": "data/festivals/winter25",
+	   "Entries": {
+	    "Charlie": "Usualy people stay with people.#$b# But I like to stay with Dusty!$h#$b# Even that he doesn't get part on the festival, that don't mean that he don't deserve some love!$h",
+		"Charlie_spouse": "Hi @, I love you.$l#$b# Sorry if that was too 'suprise'...#$b# But you are a wish that come true to my life.$l",
+		"Randy": "Food!$h#$b# I think that mayor don't like Randy...$s"
+	  }	
+	},
+  ]
+}  

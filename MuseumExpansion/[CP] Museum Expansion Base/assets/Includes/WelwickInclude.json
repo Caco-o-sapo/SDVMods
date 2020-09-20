@@ -1,0 +1,52 @@
+{
+  "Changes": [
+    {
+	 "LogName": "Welwick Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Welwick": "adult/neutral/shy/positive/female/not-datable/null/Other/winter 3/null/WizardHouse -10000 -10000/Welwick",
+      }
+	},
+	{
+	 "LogName": "Welwick AntiSocial Flag",
+      "Action": "EditData",
+	  "When": {"HasSeenEvent |contains=47360014": "false"},
+	  "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "Welwick": true
+            },
+	},
+	{
+	  "LogName": "Welwick Sprites",
+      "Action": "Load",
+      "Target": "Characters/Welwick",
+      "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+    },
+	{
+	  "LogName": "Orb sprite",
+	  "Action": "Load",
+	  "Target": "Characters/Orb",
+	  "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+	},
+	{
+	  "LogName": "Portal Sprites",
+	  "Action": "Load",
+	  "Target": "Characters/Portal",
+	  "FromFile": "assets/SpriteSheets/Portal.png",
+	},
+	{
+	  "LogName": "Welwick Portraits",
+	  "Action": "Load",
+	  "Target": "Portraits/Welwick",
+	  "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+	},
+	{
+	  "LogName": "Welwick Cursors Override",
+	  "Action": "EditImage",
+	  "Target": "LooseSprites/Cursors",
+	  "FromFile": "assets/SpriteSheets/Cursors.png",
+	  "PatchMode": "Overlay",
+	},  
+  ]
+}

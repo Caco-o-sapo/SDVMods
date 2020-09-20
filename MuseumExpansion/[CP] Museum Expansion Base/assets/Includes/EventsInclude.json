@@ -1,0 +1,54 @@
+{
+  "Changes": [
+    {
+      "LogName": "ArchaeologyHouse events",
+      "Action": "EditData",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "FromFile": "assets/Events/ArchaeologyHouse.en.json",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+	},
+	{
+	  "LogName": "ArchaeologyHouse events SVE",
+      "Action": "EditData",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "FromFile": "assets/Events/ArchaeologyHouse.sve.json",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "true"},
+	},
+	{
+	  "LogName": "Museum Shop events",
+	  "Action": "Load",
+	  "Target": "Data/Events/Museumshop",
+	  "FromFile": "assets/Events/Shopevents.en.json",
+    },
+    {
+      "LogName": "Mine events",
+	  "Action": "EditData",
+      "Target": "Data/Events/Mine",
+      "FromFile": "assets/Events/Mineevnts.en.json",
+    },
+    {
+	  "LogName": "Beach events",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Beach",
+	  "FromFile": "assets/Events/Beachevents.en.json",
+	},
+	{
+	  "LogName": "SecretWoods events",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Woods",
+	  "FromFile": "assets/Events/SecretWoods.en.json",
+	},
+	{
+	  "LogName": "Mail trigger farm",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Farm",
+	  "FromFile": "assets/Events/Farmevents.json",
+    },
+	{
+	  "LogName": "Charlie letters",
+	  "Action": "EditData",
+	  "Target": "Data/mail",
+	  "FromFile": "assets/Events/Charliemail.en.json",
+	},
+  ]
+}

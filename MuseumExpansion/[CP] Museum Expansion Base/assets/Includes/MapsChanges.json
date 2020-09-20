@@ -1,0 +1,153 @@
+{
+    "Changes": [{
+            "LogName": "TileSheet Load",
+            "Action": "Load",
+            "Target": "Maps/fall_museum, Maps/spring_museum, Maps/winter_museum, Maps/summer_museum",
+            "FromFile": "assets/Maps/TileSheets/Museum/{{recolour}}/{{TargetWithoutPath}}.png",
+        }, {
+            "LogName": "TileSheet Load 2",
+            "Action": "Load",
+            "Target": "Maps/Welwick_trailer",
+            "FromFile": "assets/Maps/TileSheets/Welwick/Welwick_trailer.png",
+        }, {
+            "LogName": "Entrance Shop Edit",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Maps/SHOP.tbin",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",
+                "HasMod: |contains=DaisyNiko.SVR2": "false"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 8,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 102,
+                "Y": 82,
+                "Width": 8,
+                "Height": 9
+            },
+        }, {
+            "LogName": "Entrance Shop Edit SVE",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Maps/SHOP.sve.tbin",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "true"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 8,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 102,
+                "Y": 82,
+                "Width": 8,
+                "Height": 10
+            },
+        }, {
+            "LogName": "Entrance Shop Edit RE2",
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "FromFile": "assets/Maps/SHOP.r2.tbin",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",
+                "HasMod: |contains=DaisyNiko.SVR2": "true"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 8,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 102,
+                "Y": 82,
+                "Width": 8,
+                "Height": 9
+            },
+        }, {
+            "LogName": "Randy room edit",
+            "Action": "EditMap",
+            "Target": "Maps/Museumshop",
+            "FromFile": "assets/Maps/shopmu2.tbin",
+            "When": {
+                "HasSeenEvent |contains=47360003": "true"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 7,
+                "Height": 7,
+            },
+            "ToArea": {
+                "X": 19,
+                "Y": 13,
+                "Width": 7,
+                "Height": 7,
+            },
+        }, {
+            "LogName": "Randy Shop edit",
+            "Action": "EditMap",
+            "Target": "Maps/Museumshop",
+            "FromFile": "assets/Maps/shopmu3.tbin",
+            "When": {
+                "HasSeenEvent |contains=47360008": "true"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 7,
+                "Y": 9,
+                "Width": 3,
+                "Height": 2,
+            },
+        }, {
+            "LogName": "Charlie Room door",
+            "Action": "EditMap",
+            "Target": "Maps/ArchaeologyHouse",
+            "FromFile": "assets/Maps/Door.tbin",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 3,
+            },
+            "ToArea": {
+                "X": 30,
+                "Y": 1,
+                "Width": 3,
+                "Height": 3,
+            },
+        }, {
+            "LogName": "Hide Gunther SVE flag",
+            "Action": "EditMap",
+            "When": {
+                "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"
+            },
+            "Target": "Maps/ArchaeologyHouse",
+            "FromFile": "assets/Maps/GuntherHide.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 2,
+            },
+            "ToArea": {
+                "X": 2,
+                "Y": 7,
+                "Width": 3,
+                "Height": 2,
+            },
+        },
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "Changes": [
+    {
+	  "LogName": "GuntherWoods Flag for Sve",
+	  "Action": "EditData",
+	  "Target": "Data/NPCDispositions",
+	  "Entries": {
+	    "GuntherWoods": "adult/neutral/neutral/positive/male/not-datable/null/Other/fall 11/Charlie 'nephew'/Test2 3 5/Gunther",
+		},
+	  "When": {
+	  "HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false",	
+       },	
+	},
+	{	
+	  "LogName": "GuntherWoods GiftTaste SVE",
+	  "Action": "EditData",
+	  "Target": "Data/NPCGiftTastes",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+	  "Entries": {
+	    "GuntherWoods": "Oh, thank you @, you are surely a good person!/386 86 80 82/Thank you my friend.//What am I supposed to do with this?/90 88 78/What were you thinking? This is awful!/330/You brought me a present? Thanks.//",},
+	},
+	{
+	  "LogName": "GuntherWoods Sprites SVE flag",
+      "Action": "Load",
+      "Target": "Characters/GuntherWoods",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+      "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+	},
+	{
+	 "LogName": "Gunther Portrait Replacer",
+     "Action": "EditImage",
+     "Target": "Portraits/Gunther",
+	 "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+     "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+	},
+	{
+	 "LogName": "GuntherWoods Schedule",
+	 "Action": "Load",
+	 "Target": "Characters/schedules/GuntherWoods",
+	 "FromFile": "assets/Schedules/{{TargetWithoutPath}}.json",
+	 "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+	},
+	{
+	  "LogName": "GuntherWoods Portrait SVE flag",
+	  "Action": "Load",
+	  "Target": "Portraits/GuntherWoods",
+	  "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+	},
+	{
+	  "LogName": "GuntherWoods Dialogue SVE flag",
+      "Action": "Load",
+	  "Target": "Characters/Dialogue/GuntherWoods",
+      "FromFile": "assets/Dialogues/{{TargetWithoutPath}}.en.json",
+	  "When": {"HasMod: |contains=FlashShifter.StardewValleyExpandedALL": "false"},
+	},
+  ]
+}  

@@ -1,0 +1,79 @@
+{
+  "Changes": [
+    {
+	 "LogName": "NPC Manifestation Randy 1",
+	 "Action": "EditData",
+	 "Target": "Data/NPCDispositions",
+     "When": {"HasSeenEvent |contains=47360003": "false"},
+	 "Entries": {
+	  "Randy": "child/polite/outgoing/neutral/male/not-datable/null/Other/null//Museumshop -1000 -1000/Randy"
+	  }
+	},
+	{
+	"LogName": "NPC Manifestation Randy 2",
+	 "Action": "EditData",
+	 "Target": "Data/NPCDispositions",
+     "When": {"HasSeenEvent |contains=47360003": "true"},
+	 "Entries": {
+	  "Randy": "child/polite/outgoing/neutral/male/not-datable/null/Other/winter 3/Charlie ''/Museumshop 8 11/Randy"
+	  }
+	
+	},
+	{
+	  "LogName": "Randy AntiSocial Flag",
+      "Action": "EditData",
+      "When": {"HasSeenEvent |contains=47360003": "false"},
+	  "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "Randy": true
+            },
+	},
+	{
+      "LogName": "Randy Gift Tastes",
+      "Action": "EditData",
+	  "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Randy": "Fancy thing! Thanks!/84 82 43 395/T-thank... you!/96 67 68 99/Not cool.../88 90/T-trash thing.../68 70/I l-like.../80 82///"
+	  }
+    },
+	{
+	  "LogName": "Randy Sprites",
+      "Action": "Load",
+      "Target": "Characters/Randy",
+      "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+    },
+	{
+	  "LogName": "Randy Portraits",
+	  "Action": "Load",
+	  "Target": "Portraits/Randy",
+	  "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+	},
+	{
+	  "LogName": "Randy Schedule",
+	  "Action": "Load",
+	  "When": {"HasSeenEvent |contains=47360003": "true",
+	           "HasSeenEvent |contains=47360008": "false"},
+	  "Target": "Characters/schedules/Randy",
+	  "FromFile": "assets/Schedules/RandySchedule.json",
+	},
+	{
+	 "LogName": "Randy Schedule Shop",
+	  "Action": "Load",
+	  "When": {"HasSeenEvent |contains=47360008": "true"},
+	  "Target": "Characters/schedules/Randy",
+	  "FromFile": "assets/Schedules/RandySchedule.json",
+	},
+	{
+	 "LogName": "Randy Schedule Dialogue",
+	 "Action": "Load",
+	 "Target": "Strings/schedules/Randy",
+	 "FromFile": "assets/Schedules/RandySche.en.json",
+	},
+    {	
+	  "LogName": "Dialogues",
+      "Action": "Load",
+	  "Target": "Characters/Dialogue/Randy",
+      "FromFile": "assets/Dialogues/{{TargetWithoutPath}}.en.json",
+	},
+  ]
+}

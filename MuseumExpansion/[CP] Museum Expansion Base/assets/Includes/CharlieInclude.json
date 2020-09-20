@@ -1,0 +1,99 @@
+{
+    "Changes": [{
+            "LogName": "Charlie Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Charlie": "adult/polite/outgoing/neutral/male/datable/null/Other/summer 16/Gunther '' Randy ''/Test2 18 9/Charlie",
+            }
+        }, {
+            "LogName": "Charlie Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Charlie": "Oh wow this is amazing! Thank you!/84 64 103 395/How nice of you, this is great./96 97 98 99/Oh.. well it's the though that counts I guess./88 90/Gross... You're Gross.../68 70/Thanks/80 82//"
+            },
+        }, {
+            "LogName": "Charlie Sprites",
+            "Action": "Load",
+            "Target": "Characters/Charlie",
+            "FromFile": "assets/SpriteSheets/{{TargetWithoutPath}}.png",
+        }, {
+            "LogName": "Charlie Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Charlie",
+            "FromFile": "assets/Portraits/{{CharliePortrait}}.png",
+        }, {
+            "LogName": "Charlie Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Charlie",
+            "FromFile": "assets/Schedules/Charlieschedule.json",
+            "When": {
+                "HasSeenEvent |contains=47360002": "false"
+            },
+        }, {
+            "LogName": "Shop Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Charlie",
+            "FromFile": "assets/Schedules/scheduleCharlieshop.json",
+            "When": {
+                "HasSeenEvent |contains=47360002": "true"
+            },
+        }, {
+            "LogName": "Charlie Schedule Dialogue",
+            "Action": "Load",
+            "Target": "Strings/schedules/Charlie",
+            "FromFile": "assets/Schedules/ScheduleDialogue.en.json",
+        }, {
+            "LogName": "Charlie Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Charlie",
+            "FromFile": "assets/Dialogues/{{TargetWithoutPath}}.en.json",
+        }, {
+            "LogName": "Engagement Charlie Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Charlie0": "I am so happy!$1",
+                "Charlie1": "I'm so nervous for tomorrow.$4"
+            }
+        }, {
+            "LogName": "Marriage Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueCharlie",
+            "FromFile": "assets/Dialogues/MarriageDialogueCharlie.en.json"
+        }, {
+            "LogName": "Weeding fix",
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Charlie in the bonds of marriage.",
+                "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Charlie in the bonds of marriage.",
+
+                "Utility.cs.5371": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and... well, husband!$h",
+                "Utility.cs.5373": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+                "Utility.cs.5377": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+            },
+            "When": {
+                "Relationship:Charlie": "Engaged, Married"
+            }
+        }, {
+            "LogName": "Map strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Inside.1": "Fresh cookies! Too bad that isn't for you...",
+                "Inside.2": "Oh, a globe! And here is Stardew Valley, but you can't find Pelican Town",
+                "Inside.3": "His fridge, It's full of veggies, and... Why there is an Ancient Doll here in there?",
+                "Inside.5": "You look at the mirrior. You look beautiful today. Just today.",
+                "Shop.1": "Why are you looking into the trash can?",
+                "Shop.2": "Randy looks happy with his new home.",
+                "Shop.3": "Books and more books...",
+                "Shop.4": "Why people always let these open books on the floor?",
+                "Spouse.1": "These arcades are protected with a password...",
+                "Spouse.2": "You notice something under the sofa... It's just a old board game.",
+                "Spouse.3": "You take a look on Charlie's table... It has some letters to Sandy, and some paperwork.",
+            },
+        },
+    ]
+}

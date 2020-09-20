@@ -1,0 +1,24 @@
+{
+    "Format": "1.17.0",
+    "Changes": [{
+            "LogName": "Animated Puffer",
+            "Action": "EditImage",
+            "Target": "Maps/Welwick_trailer",
+            "FromFile": "Puffer_ballon.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 160
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 64,
+                "Height": 160
+            },
+            "AnimationFrameTime": 7,
+            "AnimationFrameCount": 30
+        }
+    ]
+}

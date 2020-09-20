@@ -1,0 +1,89 @@
+{
+    "name": "Charlie Maps",
+    "version": "2.0",
+    "author": "andril11",
+    "loadLate": true,
+    "addMaps":
+    [{
+            "name": "Test2",
+            "file": "assets/CharlieRoom.tbin",
+        }, {
+            "name": "Museumshop",
+            "file": "assets/shopmu.tbin",
+        }, {
+            "name": "WelwickPlace",
+            "file": "assets/WelwickTest.tmx",
+        },
+    ],
+    "spouseRooms": [{
+            "name": "Charlie",
+            "file": "assets/CharlieSpouse.tbin",
+        },
+    ],
+    "onlyWarps": [{
+            "name": "Test2",
+            "addWarps": [
+                "6 25 ArchaeologyHouse 31 4"
+            ]
+        }, {
+            "name": "Museumshop",
+            "addWarps": [
+                "12 15 Town 108 90"
+            ]
+        }
+    ],
+    "replaceMaps":
+    [{
+            "name": "Museumshop",
+            "file": "assets/shopmu1.tbin",
+            "Conditions": "e 47360002",
+        }, {
+            "name": "Test2",
+            "file": "assets/CharlieRoom.sve.tbin",
+            "conditions": "LC Luau.hasMod('FlashShifter.StardewValleyExpandedALL')"
+        },
+    ],
+    "festivalSpots":
+    [{
+            "name": "Charlie",
+            "map": "Town-EggFestival",
+            "position": [34, 63],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Forest-FlowerFestival",
+            "position": [22, 41],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Beach-Luau",
+            "position": [32, 7],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Beach-Jellies",
+            "position": [43, 24],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Town-Fair",
+            "position": [64, 65],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Town-Halloween",
+            "position": [33, 73],
+            "direction": 0,
+        }, {
+            "name": "Charlie",
+            "map": "Forest-IceFestival",
+            "position": [65, 50],
+            "direction": 2,
+        }, {
+            "name": "Charlie",
+            "map": "Town-Christmas",
+            "position": [53, 71],
+            "direction": 0,
+        },
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Charlie maps",
+  "Author": "Andril11",
+  "Version": "1.0",
+  "Description": "Adds two new maps, Charlie's house and make the magic happens",
+  "UniqueID": "test2.andril11",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}
